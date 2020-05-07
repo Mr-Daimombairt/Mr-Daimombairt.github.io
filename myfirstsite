@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gmcl.com</title>
+    <link rel="icon" type="image/png" href="assets/alien.png" />
+</head>
+<body>
+    <header>
+        <div>
+            <p>
+                <button> ACCEUIL </button>
+                <button> PRESENTATION </button>
+                <button> RENSEIGNEMENT </button>
+                <button>BIENVENU</button>
+            </p>
+        </div>
+
+    </header>
+    <div>
+        <h1>my second site for to lean html</h1>
+        <div>
+            this's  new paragraphe for to test a hyperlink in my code and see that if print my code correctly
+        </div>
+        <p>
+            voulez vous avoir plus de precision sur leonard euler
+            l'un des plus grand mathematicien, physicien, astrophysicien, philosophe de tout les temps
+        </p>
+        <div>
+            <h2>test</h2>
+        </div>
+    </div>
+    <footer>
+        <div>
+            <div>
+                <h4 id="tableau"> test des tableaux </h4>
+                <table border="1">
+                    <tr>
+                        <th> HORAIRE</th>
+                        <th> LUNDI </th>
+                        <th> MARDI </th>
+                        <th> MERCREDI </th>
+                        <th> JEUDI </th>
+                        <th> VENDREDI </th>
+                        <th> SAMEDI </th>
+                    </tr>
+                    <tr>
+                        <th> 10h30 </th>
+                        <td height="8px" width="3px"> SPECIALISATION PTYHON <meter value="15" min="0" max="100" >15%</meter> </td>
+                        <td height="8px" width="3px"> PYTHON PROGRAMMING <meter value="75" min="0" max="100">75%</meter> </td>
+                        <td height="8px" width="3px"> PRONONCIATION ENGLISH <progress value="5" max="100">5%</progress> </td>
+                        </td> <td> </td> <td> </td> <td> </td>
+                    </tr>
+                    <tr>
+                        <th> 12h00 </th>
+                        <td height="8px" width="3px" > SPECIALISATION PTYHON </td>
+                        <td> </td> <td> </td> <td> </td> <td> </td> <td> </td>
+                    </tr>
+                    <tr>
+                        <th> 15h30 </th>
+                        <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td>
+                    </tr>
+                    <tr>
+                        <th> 18h00 </th>
+                        <td> <img src="assets/mummy.png" /> </td>
+                        <td> <img src="assets/comet.png" /> </td>
+                        <td> <a href="assets/projectile.png">
+                                <img src="assets/projectile.png" height="40px" width="45px" alt="projectile"/>
+                            </a>
+                        </td>
+                        <td>
+                            <audio src="audios/2.mp3" alt="imposible"  controls></audio>
+                        </td>
+                        <td> </td> <td> </td>
+                    </tr>
+                </table>
+                <figure>
+                    <a href="assets/player.png">
+                        <img src="assets/player.png" width="75px" height="60px" alt="my screen" />
+                    </a>
+                    <figcaption>my player monster</figcaption>
+                </figure>
+                <div>
+                    <audio src="audios/1.mp3" controls> fisrt link of sound</audio>
+                </div>
+            </div>
+            <p>
+                if you want return at the precedente page click here <a href="my_first_site.html">back </a>
+            </p>
+            <div>
+                <a href="assets/banner.png"> <img src="assets/banner.png" width="75px" height="90px" alt="my test URL"/></a>
+            </div>
+            <iframe src="http://fr.wikipedia.org" width="1338px" height="200px"></iframe>
+        </div>
+    </footer>
+</body>
+</html>
