@@ -1,0 +1,175 @@
+*{
+        margin: 0;
+        padding: 0;
+}
+body{
+        margin: 0;
+        padding: 0;
+}
+/*
+header{
+        background: -moz-linear-gradient(top, #666666)
+        background: -webkit-linear-gradient(#666666 0%)
+        background: -o-linear-gradient(#666666 0%, #00FF00 0%)
+        background: linear-gradient(#666666 0%, #00b701)
+       /* background-color: blue; */
+}
+*/
+p{
+        font-family: Courier;
+        font-size: 16px;
+        padding: 10px;
+        margin: 0px;
+        display: inline-block;
+}
+
+.nav-bar{
+        list-style-type: none;
+        display: flex;
+        background-color: #001AAA;
+        margin: 0;
+        justify-content: flex-end; /*space-between center flex-end*/
+        overflow: hidden;
+
+}
+
+.nav-bar-item{
+        padding: 25px 30px;
+        color: white;
+        cursor: pointer;
+        font-size: 1rem;
+}
+
+.nav-bar-item:first-child {
+        color: white;
+}
+
+.push {
+        margin-right: auto;
+}
+
+.nav-bar a:hover, .nav-bar-item:hover {
+  background-color: #081D44;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #001AAA;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-family: Arial;
+}
+
+.dropdown-content a:hover {background-color: #C4C6CA;}
+
+.nav-bar-item:hover .dropdown-content {
+    display: block;
+}
+
+.progress{
+    font-family: Courier;
+    font-size: 17px;div
+}
+/*
+.firstpara {
+    float: left;
+    display: table;
+    width: 400px;
+}
+
+.lastpara{
+    float: right;
+    width: 400px;
+}
+*/
+.words{
+    background-color: #00ffff;
+    overflow: hidden;
+
+}
+
+.words{
+	box-sizing: border-box;
+	border:1px solid #000000;
+	width:30%;
+	height: 400px;
+/*	margin:2%;
+	padding: 2%; */
+	display: inline-block;
+	transition: 2s ease;
+	border-radius: 7px;
+    margin: 14px auto;
+}
+.first:hover{
+	width:100%;
+	background-color: #800040;
+	font-size: 19px;
+	font-family: Courier;
+	margin: 5px auto;
+}
+
+.second:hover{
+	width:69.5%;
+	background-color: #807044;
+	font-size: 19px;
+	font-family: Courier;
+	margin: 5px auto;
+}
+
+.last:hover{
+    width:39.3%;
+	background-color: #FFFFFF;
+	font-size: 19px;
+	font-family: Courier;
+	margin: 5px auto;
+}
+
+.words:focus{
+	background-color: #ffff00;
+}
+
+.new{
+    margin: 5px;
+    font-family: Mono;
+    font-size: 16px;
+}
+
+footer details p{
+    color: black;
+    font-family: Arial;
+    font-size: 17px;
+
+}
+
+footer details{
+    color: #00FF00;
+    font-family: Ubuntu;
+    font-size: 17px;
+    margin: 10px auto;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#citation{
+    background: #00A020;
+    font-size: 19px;
+    color: #000000;
+    padding: 0px 5px;
+}
+
+#end{
+    font-size: 18px;
+    margin: 17px;
+    padding: 17px;
+    text-align: center;
+}
