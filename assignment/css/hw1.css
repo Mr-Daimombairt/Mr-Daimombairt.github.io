@@ -1,0 +1,123 @@
+body{
+    margin: -10px 25px;
+}
+header{
+    background: url("../images/flywheel.jpg") no-repeat;
+    background-size: 100%;
+    background-width: 100%;
+    height: 143px;
+    margin: 5px;
+    padding: 15px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+main{
+    display: inline-block;
+    margin: auto;
+}
+
+.left{
+     width: 320px;
+     height: 115vh;
+     float: left;
+     background-color: rgba(106, 108, 0, 0.85);
+     margin:0px;
+    overflow: auto;
+}
+
+.right{
+    width: 943px;
+    float: right;
+    font-size: 18px;
+    margin: 0px 0px 0px 12px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+nav{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+   /* padding: 45px 129px;
+    box-sizing: border-box;*/
+
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    background-color: transparent;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 14px 64px;
+    margin : 0 auto;
+   /* border-width: 3px;
+    border: solid 1px #CC00AA; */
+    font-size: 20px;
+    border-radius: 7px;
+}
+
+.left img {
+    width: 270px;
+    height: 155px;
+    margin: 35px auto;
+    justify-content: space-between;
+    border: 1.5px solid black;
+    text-align: center;
+    display : block;
+}
+
+nav a:hover {
+    background-color: white;
+}
+
+.active { background: white}
+
+table{
+   /* border: 2px solid black; */
+    padding: 0px;
+    margin: 0px 0px 0px 90px;
+}
+
+th{
+    border:  0px 4px solid green;
+    border-radius: 7px 7px 0px 0px;
+    border-spacing: 0;
+    padding: 16px;
+    margin: 12px;
+    justify-content: space-between;
+    background-image: linear-gradient(0deg,rgba(81, 92, 0, 0.8) , rgba(81, 124, 0, 0.8));
+    color: #FFF;
+    position: relative;
+    opacity: 0.7;
+}
+
+th:first-child{
+    padding: 13px 75px 13px 12px;
+    text-align: left;
+}
+
+th:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: rgba(113, 255, 0, 0.8);
+    right:0;
+    bottom: -5px;
+    border-spacing: 0;
+    margin: 1px;
+}
+
+td{
+    padding: 12px 45px 12px 12px;
+    margin: 5px 45px;
+    background-color: #BFCBB5;
+    text-align: left;
+    font-size: 16px;
+    opacity: 0.8;
+}

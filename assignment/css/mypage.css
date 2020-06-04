@@ -1,0 +1,141 @@
+
+h1{
+    text-align: center;
+    color:#ffffff;
+    margin-top: 15px;
+    font-size: 21px;
+    margin-bottom: 0px;
+    padding-right: 17px;
+}
+header{
+
+    height: 188px;
+    text-align: left;
+    background-image: url(http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg);
+    background-size: cover;
+    padding-top: 20px;
+    background-color: rosybrown;
+
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 10px;
+    background-color:rgba(255,255,255,0.5);
+    margin-right: 0px;
+    margin-left: 62px;
+    font-weight: bold;
+    padding-left: 89px;
+    padding-right: 90px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+nav{
+
+
+    margin-left: 5px;
+    margin-top: 13px;
+
+}
+
+nav a.active{
+    background-color: whitesmoke;
+}
+
+
+section{
+    margin-left: 0px;
+
+}
+h2{
+
+     margin-left: 2px;
+    font-weight: bolder;
+}
+ body{
+    padding: 16px;
+    margin: 16px;
+
+}
+*{
+    box-sizing: border-box;
+}
+.right{
+    margin-top: 0px;
+}
+.left{
+    background-color: olive;
+    padding-top: 20px;
+    margin-top: 0px;
+    padding-bottom: 2px;
+    width: 220px;
+    height: 800px;
+    padding-right: 0px;
+    display: inline-block;
+}
+.left img{
+    width: 180px;
+    height: 95px;
+    display:block;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+.right{
+    width:1050px;
+    float: right;
+
+}
+
+p{
+    padding-bottom: 10px;
+    margin-left: 2px;
+}
+ .table-container{
+
+     width:800px;
+     margin:0px auto;
+     font-family: sans-serif;
+
+ }
+ table th,table td{
+     padding:25px;
+     padding-top: 20px;
+     padding-bottom: 20px;
+ }
+ thead tr th{
+     background-color: olive;
+     border-top-left-radius: 4px;
+     border-top-right-radius:4px;
+     font-weight: bold;
+     color: #ffffff;
+     border-bottom: 4px solid green;
+
+ }
+
+
+  th:nth-child(1){
+     text-align: left;
+
+ }
+
+ tbody {
+     text-align: center;
+     color: #dedede;
+     font-weight: bold;
+
+
+ }
+ td:nth-child(1){
+    text-align: left;
+}
+
+ tbody tr{
+  background-color: rgb(114, 129, 92);
+  opacity: .8;
+ }
+ tbody tr:hover{
+ opacity:1;
+ }
